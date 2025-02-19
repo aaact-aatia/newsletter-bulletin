@@ -2,25 +2,15 @@
 <html lang="en">
 
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Decap CMS</title>
-		<script src="https://unpkg.com/netlify-identity-widget@1.9.1"></script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="noindex" />
+		<title>Content Manager</title>
 	</head>
 
 	<body>
-		<script>
-			if (window.netlifyIdentity) {
-				window.netlifyIdentity.on("init", user => {
-					if (!user) {
-						window.netlifyIdentity.on("login", () => {
-							document.location.href = "/admin/";
-						});
-					}
-				});
-			}
-		</script>
-		<script src="https://unpkg.com/decap-cms@^2.10.0/dist/decap-cms.js"></script>
+		<!-- Include the script that builds the page and powers Decap CMS -->
+		<script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 	</body>
 
 </html>

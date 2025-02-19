@@ -46,6 +46,7 @@ collections:
     folder: "content/newsletters"
     create: true
     slug: "{{slug}}"
+    i18n: true
     format: "frontmatter"
     fields:
       - { label: "Title (required)", name: "title", widget: "string", i18n: true }
