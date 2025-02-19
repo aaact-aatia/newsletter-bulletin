@@ -1,5 +1,8 @@
 ---
-title: Newsletters
-otherLanguageTitle: Bulletins
-description: "this is a site that does something"
+title: AAACT Now for accessibility newsletter
+otherLanguageTitle: infolettre
+description: "By joining our mailing list, you'll receive news and insights on digital accessibility so we can all contribute to disability inclusion."
+permalink: /en/newsletters/
 ---
+
+[Join our mailing list](https://forms-formulaires.alpha.canada.ca/en/id/clwg9uutq012sx883m3l6gt8p)
