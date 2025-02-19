@@ -1,0 +1,3 @@
+[submodule "main-site"]
+	path = main-site
+	url = https://github.com/aaact-aatia/aaact-aatia.github.io.git
