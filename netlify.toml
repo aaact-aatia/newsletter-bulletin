@@ -1,0 +1,6 @@
+[build]
+  publish = "_site"
+  command = "git submodule update --init --recursive && npm install && npx eleventy"
+
+[functions]
+  directory = "netlify/functions"
