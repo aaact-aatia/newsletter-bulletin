@@ -1,3 +1,7 @@
+# 11ty compiles folder
+
+_site
+
 # Created by https://www.toptal.com/developers/gitignore/api/node,windows,visualstudiocode,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,windows,visualstudiocode,macos
 
@@ -220,3 +224,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/node,windows,visualstudiocode,macos
+
+# Local Netlify folder
+.netlify
+deno.lock
