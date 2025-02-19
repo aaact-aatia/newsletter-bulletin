@@ -4,6 +4,10 @@ module.exports = function (eleventyConfig) {
 	// Load everything from the main site's config
 	const config = mainConfig(eleventyConfig);
 
+	eleventyConfig.addPassthroughCopy({
+		"./public": "/",
+	});
+
 	// Override the directories specific to this project
 	return {
 		...config, // Spread operator to merge main site's config
