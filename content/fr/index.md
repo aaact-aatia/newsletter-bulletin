@@ -1,5 +1,5 @@
 ---
 title: Bulletins
-layout: newsletters.njk
+layout: base.njk
 otherLang: Newsletters
 ---
